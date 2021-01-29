@@ -1,0 +1,113 @@
+h1, h2, h3, h4, body{
+	margin: 0;
+	padding: 0;
+}
+
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+
+h1{
+	font-weight: 900;
+	font:48px;
+}
+
+.top{
+	text-align: center;
+}
+
+.top > p{
+	color:#fff;
+	font-weight: 700;
+	font: 25px;
+}
+
+.reg{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+.reg > a{
+	margin: 10px;
+	text-decoration: none;
+	color:#000;	
+}
+
+
+header{
+	margin: 0;
+	background-color: #3399ff;
+	border-bottom: 4px solid red;
+	display:flex;
+	justify-content: space-between;
+	padding: 2px 20px 2px;
+}
+
+footer{
+	margin-top: 20px;
+	background-color: #696969;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	vertical-align: bottom;
+}
+
+footer > p{
+	padding: 0;
+	margin: 0;
+}
+
+.enterform {
+	padding: 0 auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+form{
+	width: 400px;
+}
+
+.head{
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	background-color: #3399ff;
+}
+
+.formhead{
+	text-align: center;
+}
+
+.user{
+	margin-right: 10px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.password{
+	margin-right: 10px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+form{
+	margin-top: 20px;
+	border: 1px grey solid;
+}
+.but{
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+input{
+	height: 1.3em;
+}

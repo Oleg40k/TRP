@@ -1,0 +1,74 @@
+h1, h2, h3, h4, body{
+	margin: 0;
+	padding: 0;
+}
+
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+header{
+	margin: 0;
+	background-color: #3399ff;
+	border-bottom: 4px solid red;
+	display:flex;
+	justify-content: space-between;
+	padding: 2px 20px 2px;
+}
+
+h1{
+	font-weight: 900;
+	font:48px;
+}
+
+.top{
+	text-align: center;
+}
+
+.top > p{
+	color:#fff;
+	font-weight: 700;
+	font: 25px;
+}
+
+.reg{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+.reg > a{
+	margin: 10px;
+	text-decoration: none;
+	color:#000;	
+}
+.content{
+	margin-top: 15px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 15px 20px 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.dit{
+	margin-left: 10px;
+}
+.dit > a{
+	margin-right: 50px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer{
+	margin-top: 20px;
+	background-color: #696969;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+}
+footer > p{
+	padding: 0;
+	margin: 0;
+}
